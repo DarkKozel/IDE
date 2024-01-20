@@ -30,7 +30,7 @@ def game_core_v3(number: int = 1) -> int:
     Returns:
         Count (int): Число попыток
     """
-    # Ваш код начинается здесь
+    # Ваш код начинается здесь 
     count = 0
     smallest_number, biggest_number = 1, 100 #стандартные наибольшие и наименьшие значения
     predict = np.random.randint(1, 101)
